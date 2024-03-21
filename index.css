@@ -1,0 +1,88 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.animeParent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anime
+{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: loadingRotete 7s linear infinite;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+@keyframes loadingRotete {
+    0%{transform: rotate(0deg);}
+    0%{border-top: 5px solid white;}
+    0%{border-right: 5px solid rgb(116, 116, 255);}
+    0%{border-bottom: 5px solid rgb(117, 247, 204);}
+    0%{border-left: 5px solid rgb(190, 115, 248);}
+    25%{border-top: 5px solid white;}
+    25%{border-right: 5px solid rgb(77, 77, 250);}
+    25%{border-bottom: 5px solid rgb(69, 243, 185);}
+    25%{border-left: 5px solid rgb(187, 63, 245);}
+    50%{border-top: 5px solid white;}
+    50%{border-right: 5px solid rgb(30, 30, 243);}
+    50%{border-bottom: 5px solid rgb(9, 238, 150);}
+    50%{border-left: 5px solid rgb(162, 4, 241);}
+    75%{border-top: 5px solid white;}
+    75%{border-right: 5px solid rgb(45, 0, 245);}
+    75%{border-bottom: 5px solid rgb(4, 131, 76);}
+    75%{border-left: 5px solid rgb(106, 1, 163);}
+    100%{border-top: 5px solid white;}
+    100%{border-right: 5px solid rgb(2, 2, 114);}
+    100%{border-bottom: 5px solid rgb(2, 58, 39);}
+    100%{border-left: 5px solid rgb(42, 1, 66);}
+    100%{transform: rotate(360deg);}
+}
+.divFrist
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn
+{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    font-size: 35px;
+    border-radius: 10px;
+    font-weight:bolder;
+}
+.time{
+    text-align: center;
+}
+.changeDiv{
+    text-align: center;
+}
+.hide{
+    display: none !important;
+}
+.end{
+    display: none !important;
+}
+
+.keys{
+    font-weight: bolder;
+    font-size: 20px;
+    color: green;
+}
